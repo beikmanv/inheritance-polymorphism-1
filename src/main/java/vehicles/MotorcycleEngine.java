@@ -7,6 +7,7 @@ public class MotorcycleEngine extends Engine {
         this.running = running;
         this.horsepower = horsepower;
         this.fuelType = fuelType;
+
     }
 
     public MotorcycleEngine() {
