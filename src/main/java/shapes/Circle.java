@@ -3,8 +3,6 @@ package shapes;
 public class Circle extends Shape {
     public Circle(int radius) {
         this.radius = radius;
-
-
     }
 
     public double radius;
