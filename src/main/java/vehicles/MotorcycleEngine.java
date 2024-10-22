@@ -2,12 +2,12 @@ package vehicles;
 
 public class MotorcycleEngine extends Engine {
 
-    //boolean running;
+    boolean running;
     int horsepower;
     String fuelType;
 
-    public MotorcycleEngine(int horsepower, String fuelType) {
-        //this.running = running;
+    public MotorcycleEngine(int horsepower, String fuelType, boolean running) {
+        this.running = running;
         new MotorcycleEngine();
         this.horsepower = horsepower;
         this.fuelType = fuelType;
