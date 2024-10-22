@@ -5,6 +5,8 @@ public class Motorcycle extends Vehicle {
     public Motorcycle(String make, String model, boolean hasSidecar) {
         super(make, model);
 
+        this.engine = new MotorcycleEngine(100, "Unleaded", true);
+
         String message = make + " " + model + " speed: ";
         double fuelMod = switch (this.engine.fuelType) {
             case "Unleaded" -> 1.5D;

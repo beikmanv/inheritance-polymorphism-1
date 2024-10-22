@@ -8,8 +8,12 @@ public class Main {
         System.out.println("Hello world!");
 
         Car bmw = new Car("BMW", "1 Series");
-        Motorcycle yamaha = new Motorcycle("yamaha", "10000R", false);
 
+        bmw.start();
+        bmw.drive();
+
+
+        Motorcycle yamaha = new Motorcycle("yamaha", "10000R", false);
 
     }
 

@@ -4,7 +4,7 @@ public class Car extends Vehicle {
     public Car(String make, String model) {
 
         super(make, model);
-        new CarEngine();
+        this.engine = new CarEngine(120, "Unleaded", true);
 
 
         String message = make + " " + model + " speed: ";

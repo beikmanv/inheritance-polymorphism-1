@@ -1,6 +1,6 @@
 package vehicles;
 
-public class CarEngine {
+public class CarEngine extends Engine {
 
     boolean running;
     int horsepower;
@@ -11,12 +11,7 @@ public class CarEngine {
         this.running = running;
         this.horsepower = horsepower;
         this.fuelType = fuelType;
-        new CarEngine();
 
     }
 
-
-    public CarEngine() {
-
-    }
 }
